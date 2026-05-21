@@ -1,0 +1,34 @@
+Package: mqqcause
+Type: Package
+Title: Multivariate Quantile-on-Quantile Granger Causality
+Version: 1.0.0
+Authors@R: c(
+    person("Merwan", "Roudane",
+           email = "merwanroudane920@gmail.com",
+           role = c("aut", "cre", "cph")),
+    person("Avik", "Sinha", role = "ctb",
+           comment = "Original multivariate QQ causality methodology"),
+    person("Nicholas", "Sim", role = "ctb",
+           comment = "Original QQ regression methodology"),
+    person("Hongtao", "Zhou", role = "ctb",
+           comment = "Original QQ regression methodology"))
+Description: Implements bivariate and Multivariate Quantile-on-Quantile
+    Granger Causality. The bivariate test estimates beta_1(theta, tau) in
+    the local-linear quantile regression of y_t on x_{t-1} (with y_{t-1}
+    as control) using Gaussian kernel weights, and tests it against zero
+    with a paired bootstrap. The multivariate (conditional) test
+    additionally conditions on a set of moderators Z and optional x*Z
+    interaction terms, following the framework that under-pins Sinha
+    et al. (2024). A Sup-Wald summary across (theta, tau) is also
+    provided (Troster 2018). Heatmaps and 3D surfaces default to MATLAB
+    Parula colours.
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.3.1
+Depends: R (>= 3.5.0)
+Imports: quantreg (>= 5.0), plotly (>= 4.0.0), stats, utils, grDevices
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
+URL: https://github.com/merwanroudane/qqcaus
+BugReports: https://github.com/merwanroudane/qqcaus/issues
+Config/testthat/edition: 3
+NeedsCompilation: no

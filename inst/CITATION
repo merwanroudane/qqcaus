@@ -1,0 +1,43 @@
+citHeader("To cite mqqcause in publications, please use:")
+
+bibentry(
+  bibtype  = "Manual",
+  title    = paste("mqqcause: Multivariate Quantile-on-Quantile",
+                   "Granger Causality"),
+  author   = person("Merwan", "Roudane",
+                    email = "merwanroudane920@gmail.com"),
+  year     = "2026",
+  note     = "R package version 1.0.0",
+  url      = "https://github.com/merwanroudane/qqcaus",
+  textVersion = paste(
+    "Roudane, M. (2026).",
+    "mqqcause: Multivariate Quantile-on-Quantile Granger Causality.",
+    "R package version 1.0.0.",
+    "https://github.com/merwanroudane/qqcaus"
+  )
+)
+
+bibentry(
+  bibtype  = "Article",
+  title    = paste("Oil Prices, US Stock Return, and the Dependence",
+                   "Between Their Quantiles"),
+  author   = c(person("Nicholas", "Sim"),
+               person("Hongtao",  "Zhou")),
+  journal  = "Journal of Banking and Finance",
+  year     = "2015",
+  volume   = "55",
+  pages    = "1--12",
+  doi      = "10.1016/j.jbankfin.2015.01.013"
+)
+
+bibentry(
+  bibtype  = "Article",
+  title    = "Testing for Granger-causality in Quantiles",
+  author   = person("Victor", "Troster"),
+  journal  = "Econometric Reviews",
+  year     = "2018",
+  volume   = "37",
+  number   = "8",
+  pages    = "850--866",
+  doi      = "10.1080/07474938.2016.1172452"
+)
