@@ -13,15 +13,20 @@ Authors@R: c(
     person("Hongtao", "Zhou", role = "ctb",
            comment = "Original QQ regression methodology"))
 Description: Implements bivariate and Multivariate Quantile-on-Quantile
-    Granger Causality. The bivariate test estimates beta_1(theta, tau) in
-    the local-linear quantile regression of y_t on x_{t-1} (with y_{t-1}
-    as control) using Gaussian kernel weights, and tests it against zero
-    with a paired bootstrap. The multivariate (conditional) test
-    additionally conditions on a set of moderators Z and optional x*Z
-    interaction terms, following the framework that under-pins Sinha
-    et al. (2024). A Sup-Wald summary across (theta, tau) is also
-    provided (Troster 2018). Heatmaps and 3D surfaces default to MATLAB
-    Parula colours.
+    Granger causality tests building on the Quantile-on-Quantile
+    regression framework of Sim and Zhou (2015)
+    <doi:10.1016/j.jbankfin.2015.01.013> and the quantile Granger
+    causality test of Troster (2018)
+    <doi:10.1080/07474938.2016.1172400>. The bivariate test estimates
+    the local-linear slope in the quantile regression of y_t on lagged
+    x_t with lagged y_t as control, using Gaussian kernel weights, and
+    tests it against zero by paired bootstrap. The multivariate
+    (conditional) test additionally conditions on a set of moderators Z
+    and optional x times Z interaction terms, in the spirit of Sinha,
+    Ghosh, Hussain, Nguyen and Das (2023)
+    <doi:10.1016/j.eneco.2023.107021>. A Sup-Wald summary across the
+    quantile grid is also provided. Heatmaps and 3D surfaces default to
+    the 'MATLAB' 'Parula' colour map.
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.3.1
