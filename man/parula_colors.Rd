@@ -28,3 +28,11 @@ mqqcause_colorscales(show_preview = TRUE)
 \value{Character vector or list.}
 \description{Colour palettes used by mqqcause plotting functions. The
 default scale is MATLAB Parula.}
+\examples{
+parula_colors(8)
+matlab_jet_colors(8)
+turbo_colors(8)
+bluered_colors(8)
+sinha_colors(8)
+mqqcause_colorscales(show_preview = FALSE)
+}
