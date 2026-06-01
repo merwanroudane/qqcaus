@@ -1,5 +1,10 @@
 # mqqcause — Multivariate Quantile-on-Quantile Granger Causality
 
+[![CRAN status](https://www.r-pkg.org/badges/version/mqqcause)](https://CRAN.R-project.org/package=mqqcause)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/mqqcause)](https://cran.r-project.org/package=mqqcause)
+[![CRAN downloads total](https://cranlogs.r-pkg.org/badges/grand-total/mqqcause)](https://cran.r-project.org/package=mqqcause)
+[![License: GPL-3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 > **Author / maintainer:** Dr Merwan Roudane &nbsp;&middot;&nbsp;
 > <merwanroudane920@gmail.com> &nbsp;&middot;&nbsp;
 > Repo: <https://github.com/merwanroudane/qqcaus>
